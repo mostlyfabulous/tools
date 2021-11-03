@@ -17,8 +17,7 @@
     "test": "npm run build && npm run lint && mocha \"lib/test/**/*_test.js\"",
     "test:unit": "mocha \"lib/test/**/*_test.js\"",
     "test:watch": "tsc-then -- mocha \"lib/test/**/*_test.js\"",
-    "prepublishOnly": "npm test",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm test"
   },
   "dependencies": {
     "@babel/core": "^7.0.0",

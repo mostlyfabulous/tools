@@ -29,8 +29,7 @@
     "benchmark": "npm run build && npm run initBench && node --expose-gc lib/perf/parse-all-benchmark.js",
     "test:unit": "mocha \"lib/test/**/*_test.js\"",
     "test:watch": "tsc-then -- mocha \"lib/test/**/*_test.js\"",
-    "prepublishOnly": "tsc && npm test",
-    "prepublish": "npm run build"
+    "prepublishOnly": "tsc && npm test"
   },
   "devDependencies": {
     "bower": "^1.7.9",
