@@ -258,6 +258,7 @@ export function jsTransform(js: string, options: JsTransformOptions): string {
           // tslint:disable-next-line: no-any
           'importMeta' as any,
           'objectRestSpread',
+          'optionalChaining'
         ],
       });
     } catch (e) {
